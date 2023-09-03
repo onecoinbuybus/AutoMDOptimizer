@@ -70,3 +70,4 @@ if __name__ == "__main__":
     # Show the first 5 configurations for illustration
     sampled_configs = random.sample(configurations, 100)
     print(pd.DataFrame(sampled_configs).head(5))
+    #pd.DataFrame(sampled_configs).iloc[5].to_dict()
